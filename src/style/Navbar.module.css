@@ -1,0 +1,38 @@
+.navDiv {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: left;
+   padding: 40px;
+   width: 270px;
+   min-height: 80vh;
+}
+
+button {
+   background: none;
+   color: white;
+   font-size: 2rem;
+   width: 120px;
+   height: 50px;
+   border: none;
+}
+
+button:hover {
+   background-color: rgba(0, 150, 150, 0.5);
+}
+
+.topDiv {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   
+}
+
+.socialDiv {
+   display: flex;
+   flex-direction: column;
+   position:relative;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}

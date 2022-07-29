@@ -1,0 +1,14 @@
+.links {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   background-color: rgba(200, 200, 200, 0.2);
+   width: 130px;
+   padding: 20px;
+}
+
+a {
+   font-size: 1.7rem;
+   text-decoration: underline;
+   padding-bottom: 15px;
+}

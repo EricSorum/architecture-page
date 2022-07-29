@@ -1,0 +1,28 @@
+.headDiv {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   gap: 10px;
+   padding-bottom: 5vh;
+   height: 10vh;
+}
+.logo {
+   width: 60px;
+   height: 60px;
+}
+
+
+.nameDiv {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+}
+
+.name {
+   font-size: 2.2rem;
+}
+
+.sub {
+   font-size: 1.3rem;
+}

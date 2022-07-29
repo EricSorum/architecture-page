@@ -1,0 +1,22 @@
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.fields {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 300px;
+}
+
+.field {
+   display: flex;
+   justify-content: space-between;
+}
+
+.info {
+   padding-top: 5vh;
+   font-size: 1.5rem;
+}

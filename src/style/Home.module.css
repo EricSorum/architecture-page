@@ -1,0 +1,67 @@
+.page {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.motto {
+   display: inline-grid;
+   grid-template: 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas:
+     "A A A . ."
+     "A A A B ."
+     ". C C C C"
+     ". C C C C";
+   padding-bottom: 5vh;
+   padding-top: 10vh;
+   max-width: 60vw;
+}
+
+.space, .for, .life {
+   opacity: 0;
+}
+
+.space {
+   grid-area: A;
+   font-size: 8rem;
+   animation: fadeInAnimation 4s linear 1s forwards;
+}
+
+.for {
+   grid-area: B;
+   font-size: 3rem;
+   animation: fadeInAnimation 4s linear 2s forwards;
+
+}
+
+.life {
+   grid-area: C;
+   font-size: 16rem;
+   animation: fadeInAnimation 4s linear 3s forwards;
+}
+
+@keyframes fadeInAnimation {
+   0% {
+      opacity: 0;
+      padding-left: 20px;
+   }
+   100% {
+      opacity: 1;
+      padding-left: 0px;
+   }
+}
+
+.lower {
+   opacity: 0%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   max-width: 30vw;
+   padding-left: 40vw;
+   font-size: 1.5rem;
+   animation: fadeInAnimation 4s linear 3s forwards;
+}
+
+.more {
+   color: yellow
+}
