@@ -6,9 +6,6 @@ import Team from './pages/Team';
 import Bulletin from './pages/Bulletin';
 import Contact from './pages/Contact';
 
-//NEXT try using HashRouter... may not work locally but might work on GH Pages
-// Or try finding another hosting site lol
-
 const RouteSwitch = () => {
   return (
     <BrowserRouter>
