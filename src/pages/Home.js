@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import style from '../style/Home.module.css'
-
+/*
+The home page is rendered with CSS animations with fade-in and lateral movement.
+*/
 function Home() {
   return (
     <div className='box'>

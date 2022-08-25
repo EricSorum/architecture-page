@@ -2,7 +2,10 @@ import React, { useState } from 'react'
 import style from '../style/Navbar.module.css'
 import NavHead from './NavHead'
 import MenuLinks from './MenuLinks'
-
+/*
+This component renders the Menu button and social media links on the left side
+of the home page.  By clicking the Menu button, the MenuLinks module is rendered.
+*/
 function Navbar() {
   let [showMenu, menuHandler] = useState(false)
 

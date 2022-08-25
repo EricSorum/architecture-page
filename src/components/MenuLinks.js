@@ -1,6 +1,8 @@
 import React from 'react'
 import style from '../style/MenuLinks.module.css'
-
+/*
+This component renders the list of links in the drop-down menu on the home page.
+*/
 function MenuLinks(props) {
   return (
       <div className={style.links}>

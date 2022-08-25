@@ -1,7 +1,10 @@
 import React from 'react'
 import logo from './images/logo.png'
 import style from '../style/NavHead.module.css'
-
+/*
+The header for the site includes a logo image and company name 
+in the upper left corner.
+*/
 function NavHead() {
   return (
     <a href="/" className={style.headDiv}>

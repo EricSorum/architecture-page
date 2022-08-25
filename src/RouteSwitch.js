@@ -5,7 +5,9 @@ import Studio from './pages/Studio';
 import Team from './pages/Team';
 import Bulletin from './pages/Bulletin';
 import Contact from './pages/Contact';
-
+/*
+This component controls the web addresses of each page using React Router.
+*/
 const RouteSwitch = () => {
   return (
     <BrowserRouter>
